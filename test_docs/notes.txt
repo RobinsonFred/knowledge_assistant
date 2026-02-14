@@ -1,0 +1,21 @@
+Personal Notes on RAG Systems
+
+RAG (Retrieval Augmented Generation) combines the strengths of retrieval systems with large language models.
+
+Key Components:
+- Document Indexing: Breaking documents into searchable chunks
+- Embedding Generation: Converting text to vector representations
+- Vector Database: Storing and searching embeddings efficiently
+- LLM Integration: Generating responses based on retrieved context
+
+Best Practices:
+- Use semantic chunking to preserve context
+- Implement hybrid search for better recall
+- Rerank results for improved precision
+- Include source citations for verifiability
+
+Common Challenges:
+- Chunk size optimization
+- Handling document updates
+- Managing embedding model changes
+- Dealing with cross-document references
